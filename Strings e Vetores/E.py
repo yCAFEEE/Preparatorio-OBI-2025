@@ -5,10 +5,27 @@ index_zeros = []
 
 for i, valor in enumerate(fita):
     if valor == 0:
-        list.append(index_zeros, i)
+        index_zeros.append(i)
 
-for i in range(n):
-    if fita[i] == -1:
-        
+for i in index_zeros:
+    aux = i
+    distancia = 0
+    while aux > 0 and fita[aux-1] != 0:
+        aux -= 1
+        distancia += 1
+        if distancia >= 9:
+            distancia = 9
+        fita[aux] = min(fita[aux], distancia) if fita[aux] != -1 else distancia
 
-print(index_fita)
+    aux = i
+    distancia = 0
+    while (aux+1 < len(fita)) and fita[aux+1] != 0:
+        aux += 1
+        distancia += 1
+        if distancia >= 9:
+            distancia = 9
+        fita[aux] = min(fita[aux], distancia) if fita[aux] != -1 else distancia
+
+print(*fita)
+
+# Esse código é lento, mas funciona >:)
