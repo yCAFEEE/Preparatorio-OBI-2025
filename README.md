@@ -7,7 +7,7 @@ Meus códigos para resolver os problemas do curso **Preparatório para OBI 2025*
 - [x] Lista 03: Strings e Vetores
 - [x] Lista 04: Tópicos Avançados
 - [x] Lista 05: Operadores e Condicionais (revisão)
-- [ ] Lista 06: Laços (revisão)
+- [x] Lista 06: Laços (revisão)
 - [ ] Lista 07: Strings
 - [x] Lista 08: Vetores
 - [ ] Lista 09: Matrizes
