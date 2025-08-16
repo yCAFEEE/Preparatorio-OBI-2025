@@ -13,6 +13,6 @@ Meus códigos para resolver os problemas do curso **Preparatório para OBI 2025*
 - [ ] Lista 09: Matrizes
 - [ ] Lista 10: Matemática
 - [ ] Lista 11: Tópicos Avançados
-- [ ] Simulado 01
+- [x] Simulado 01 (modo treino)
 - [x] Simulado 02
 - [ ] Simulado 03
