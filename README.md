@@ -16,3 +16,4 @@ Meus códigos para resolver os problemas do curso **Preparatório para OBI 2025*
 - [x] Simulado 01 (modo treino)
 - [x] Simulado 02
 - [ ] Simulado 03
+- [ ] Simulado 04
